@@ -1,0 +1,27 @@
+<h1>DETALLES</h1>
+<div class="wrapper">
+  <div class="two">
+    <h3>¿Quienes somos?</h3>
+  </div>
+  <div class="three">
+    <h3>Soluciones</h3>
+  </div>
+  <div class="four">
+    <h3>Noticias</h3>
+  </div>
+  <div class="five">
+    <h3>Soporte</h3>
+  </div>
+</div>
+
+<div *ngIf="isAboutUs" class="wrapper-qsm">
+  <h3>¿Quienes somos?</h3>
+</div>
+<div *ngIf="isSolutions" class="wrapper-sol">
+  <h3>Soluciones</h3>
+</div>
+<div *ngIf="isNews" class="wrapper-news">
+  <h3>Noticias</h3>
+</div>
+<div *ngIf="isSupport" class="wrapper-sup">
+  <h3>Soporte</h3>
